@@ -18,7 +18,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-white dark:bg-gray-900">
+    <header className="bg-white dark:bg-gray-900 fixed top-0 w-full">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 ">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
@@ -58,7 +58,9 @@ function Header() {
                 </Link>
               </div>
             </div>
-
+            <div className="">
+            <ModeToggle></ModeToggle>
+          </div>
             <div className="block md:hidden">
               <button
                 onClick={handleDropDownClick}
@@ -79,12 +81,11 @@ function Header() {
                   />
                 </svg>
               </button>
-              <div className="flex">
-                <ModeToggle></ModeToggle>
-              </div>
             </div>
           </div>
+          
         </div>
+        
       </div>
 
       {/* Toggler */}

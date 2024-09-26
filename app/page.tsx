@@ -2,12 +2,13 @@ import Header from "./components/(header)/Header";
 import { Button } from "@/components/ui/button";
 import Footer from "./components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main>
+      <main className="pt-12">
         <div className="h-1/3  px-6 pt-4 text-center dark:bg-gray-900">
           <h1 className="text-teal-600 font-bold text-4xl sm:text-5xl lg:text-6xl  text-center dark:text-white">
             Job opportunity
@@ -45,10 +46,10 @@ export default function Home() {
               </h2>
 
               <p className="hidden text-gray-500 md:mt-4 md:block dark:text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-                egestas tempus tellus etiam sed. Quam a scelerisque amet
-                ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
-                quisque ut interdum tincidunt duis.
+                Branding culture and Empowering women! The opportunity of
+                digital engagement and earning based on performance for all!
+                TUGZA Innovations and Inventions Company stood for civilized
+                world with different potential stakeholders.
               </p>
 
               <div className="mt-4 md:mt-8">
@@ -62,11 +63,8 @@ export default function Home() {
             </div>
           </div>
 
-          <img
-            alt=""
-            src="https://ashendagirls.net/exp13.jpg"
-            className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
-          />
+        <Image alt="" src={"https://ashendagirls.net/exp13.jpg"} className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"></Image>
+
         </section>
       </section>
       <Footer />
