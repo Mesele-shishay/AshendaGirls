@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import React from "react";
 
 function page() {
@@ -6,7 +7,7 @@ function page() {
     <section className="bg-white dark:bg-gray-900">
       <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
         <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
-          <img
+          <Image
             alt=""
             src="https://images.unsplash.com/photo-1617195737496-bc30194e3a19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             className="absolute inset-0 h-full w-full object-cover opacity-80"
@@ -15,7 +16,7 @@ function page() {
           <div className="hidden lg:relative lg:block lg:p-12">
             <a className="block text-white" href="#">
               <span className="sr-only">Home</span>
-              <img className="h-8 sm:h-10" src="icon.png" alt="" />
+              <Image className="h-8 sm:h-10" src="icon.png" alt="" />
             </a>
 
             <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl dark:text-white">
@@ -40,7 +41,7 @@ function page() {
               >
                 <span className="sr-only">Home</span>
 
-                <img className="h-8 sm:h-10" src="icon.png" alt="" />
+                <Image className="h-8 sm:h-10" src="icon.png" alt="" />
               </a>
 
               <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl dark:text-white">

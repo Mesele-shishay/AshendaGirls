@@ -1,5 +1,3 @@
-import React, { FC } from "react";
-
 interface LinkItemProp {
   name:string,
   url:string

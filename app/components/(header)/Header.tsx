@@ -5,6 +5,7 @@ import Link_Item from "./Link_Item";
 import NavDropDownMenu from "./NavDropDownMenu";
 import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
+import Image from "next/image";
 
 function Header() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -24,7 +25,7 @@ function Header() {
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-teal-600" href="#">
               <span className="sr-only">Home</span>
-              <img src="icon.png" className="w-8" alt="Icon" />
+              <Image src="icon.png" className="w-8" alt="Icon" />
             </a>
           </div>
 
