@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Footer from "./components/Footer";
 import Link from "next/link";
 import Image from "next/image";
+import AshendaGirl from "./public/exp13.jpg"
 
 export default function Home() {
   return (
@@ -63,7 +64,7 @@ export default function Home() {
             </div>
           </div>
 
-        <Image width={0} height={0} alt="Ashenda girl" src="https://ashendagirls.net/exp13.jpg" className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"></Image>
+        <Image alt="Ashenda girl" src={AshendaGirl} width={100} height={100} className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"/>
 
         </section>
       </section>

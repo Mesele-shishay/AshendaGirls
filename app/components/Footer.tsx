@@ -8,7 +8,7 @@ function Footer() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div className="flex justify-center text-teal-600 sm:justify-start dark:text-teal-300">
-              <Image src={"icon.png"} alt="Icon" width={24} />
+              <Image src="/icon.png" alt="Icon" width={24} height={24}/>
               <span className="font-bold pl-4">Ashenda Girls</span>
             </div>
 

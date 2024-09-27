@@ -25,7 +25,7 @@ function Header() {
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-teal-600" href="#">
               <span className="sr-only">Home</span>
-              <Image src="/icon.png" className="w-8" alt="Icon" width={0} height={0}/>
+              <Image src="/icon.png" className="w-8" alt="Icon" width={100} height={100}/>
             </a>
           </div>
 
