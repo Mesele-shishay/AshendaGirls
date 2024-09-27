@@ -63,7 +63,7 @@ export default function Home() {
             </div>
           </div>
 
-        <Image alt="Ashenda girl" src="https://ashendagirls.net/exp13.jpg" className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"></Image>
+        <Image width={0} height={0} alt="Ashenda girl" src="https://ashendagirls.net/exp13.jpg" className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"></Image>
 
         </section>
       </section>
