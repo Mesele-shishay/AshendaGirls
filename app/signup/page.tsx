@@ -17,7 +17,8 @@ function page() {
           <div className="hidden lg:relative lg:block lg:p-12">
             <a className="block text-white" href="#">
               <span className="sr-only">Home</span>
-              <Image className="h-8 sm:h-10" src={icon} alt="Icon"  />
+             {/*  <Image className="h-8 sm:h-10" src={icon} alt="Icon"  />*/}
+
             </a>
 
             <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl dark:text-white">
